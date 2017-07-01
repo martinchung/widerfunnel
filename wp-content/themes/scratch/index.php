@@ -97,9 +97,6 @@
     </section>
 
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
 
 </div>
