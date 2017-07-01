@@ -252,15 +252,15 @@ section {
 // Portfolio Section
 
 #portfolio {
-    .portfolio-item {
+    .blog-item {
         margin: 0 0 15px;
         right: 0;
-        .portfolio-link {
+        .blog-link {
             display: block;
             position: relative;
             max-width: 400px;
             margin: 0 auto;
-            .portfolio-hover {
+            .blog-hover {
                 background: fade-out($theme-primary, .9);
                 position: absolute;
                 width: 100%;
@@ -272,7 +272,7 @@ section {
                 &:hover {
                     opacity: 1;
                 }
-                .portfolio-hover-content {
+                .blog-hover-content {
                     position: absolute;
                     width: 100%;
                     height: 20px;
@@ -291,7 +291,7 @@ section {
                 }                
             }            
         }
-        .portfolio-caption {
+        .blog-caption {
             max-width: 400px;
             margin: 0 auto;
             background-color: white;
@@ -316,7 +316,7 @@ section {
 
 @media(min-width:767px) {
     #portfolio {
-        .portfolio-item {
+        .blog-item {
             margin: 0 0 30px;
         }
     }
