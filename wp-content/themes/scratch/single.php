@@ -33,7 +33,8 @@
 				</div>
 				<div class="col-sm-8 col-sm-offset-2">
 				<div class="blog-text"><?php echo the_content();?></div>
-<!--				<div class="blog-comments">
+<!-- uncomment to add comment section
+				<div class="blog-comments">
 					<?php /*if ( comments_open() || get_comments_number() ) :
 						comments_template();
 					endif; */?>

@@ -16,7 +16,7 @@
 	/* Start the Loop */
 	while ( have_posts() ) : the_post(); ?>
 
-				<div class="blog-text"><?php echo the_content();?></div>
+        <div class="blog-text"><?php echo the_content();?></div>
 
 	<?php endwhile; // End of the loop.
 	?>

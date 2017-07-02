@@ -24,12 +24,9 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,100,300,700' rel='stylesheet' type='text/css'>
 
 	<?php wp_head(); ?>
-
 </head>
 
-
 <body>
-
 
 <!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -43,22 +40,23 @@
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- To Do: Hook this up to the WP menu system to make it dynamic -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="hidden">
 					<a href="<?php echo get_site_url(); ?>"></a>
 				</li>
 				<li>
-					<a class="page-scroll" href="about">About</a>
+					<a class="page-scroll" href="<?php echo get_site_url(); ?>/about">About</a>
 				</li>
 				<li>
-					<a class="page-scroll" href="why-us">Why Us</a>
+					<a class="page-scroll" href="<?php echo get_site_url(); ?>/why-us">Why Us</a>
 				</li>
 				<li>
-					<a class="page-scroll" href="blog">Blog</a>
+					<a class="page-scroll" href="<?php echo get_site_url(); ?>/blog">Blog</a>
 				</li>
 				<li>
-					<a class="page-scroll" href="contact">Contact</a>
+					<a class="page-scroll" href="<?php echo get_site_url(); ?>/contact">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -66,43 +64,3 @@
 	</div>
 	<!-- /.container-fluid -->
 </nav>
-
-
-<!---->
-<!-- Mobile menu -->
-<!--<div class="mobile-nav" id="nav-main-mobile">-->
-<!--	<div class="menu-btn-container">.-->
-<!--		<div class="menu-btn" id="menu-btn">-->
-<!--			<div></div>-->
-<!--			<span></span>-->
-<!--			<span></span>-->
-<!--			<span></span>-->
-<!--			<span id="menu-text">MENU</span>-->
-<!--		</div>-->
-<!--	</div>-->
-<!--</div>.-->
-
-
-<!--<div class="responsive-menu">-->
-<!--	--><?php
-//	$mobile_nav = array(
-//		'theme_location'  => '',
-//		'menu'            => '',
-//		'container'       => 'div',
-//		'container_class' => 'menu-header',
-//		'container_id'    => '',
-//		'menu_class'      => 'menu',
-//		'menu_id'         => '',
-//		'echo'            => true,
-//		'fallback_cb'     => 'wp_page_menu',
-//		'before'          => '',
-//		'after'           => '',
-//		'link_before'     => '',
-//		'link_after'      => '',
-//		'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-//		'depth'           => 0,
-//		'walker'          => ''
-//	);
-//	wp_nav_menu( $mobile_nav );
-//	?>
-<!--</div>-->
