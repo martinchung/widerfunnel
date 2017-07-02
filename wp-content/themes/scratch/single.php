@@ -11,8 +11,6 @@
 		</div>
 	</header>
 
-
-
 	<section id="blogentry">
 	<div class="container">
 	<?php

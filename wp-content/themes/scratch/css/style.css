@@ -353,12 +353,12 @@ section h2.section-heading {
     margin-bottom: 15px;
 }
 section h3.section-subheading {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
 
@@ -528,8 +528,8 @@ aside.clients img {
     margin: 50px auto;
 }
 section#contact {
-    background-color: #222222;
-    background-image: url('../img/map-image.png');
+    background-color: #333;
+    /*background-image: url('../img/map-image.png');*/
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -542,6 +542,10 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
+}
+
+section#contact h3 {
+    color: #fff;
 }
 section#contact .form-group input.form-control {
     height: auto;
@@ -557,27 +561,27 @@ section#contact ::-webkit-input-placeholder {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eeeeee;
+    color: #333333;
 }
 section#contact :-moz-placeholder {
     /* Firefox 18- */
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eeeeee;
+    color: #333333;
 }
 section#contact ::-moz-placeholder {
     /* Firefox 19+ */
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eeeeee;
+    color: #333333;
 }
 section#contact :-ms-input-placeholder {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eeeeee;
+    color: #333333;
 }
 section#contact .text-danger {
     color: #e74c3c;

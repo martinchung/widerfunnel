@@ -52,7 +52,7 @@
 					<a class="page-scroll" href="about">About</a>
 				</li>
 				<li>
-					<a class="page-scroll" href="team">Team</a>
+					<a class="page-scroll" href="why-us">Why Us</a>
 				</li>
 				<li>
 					<a class="page-scroll" href="blog">Blog</a>
